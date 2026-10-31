@@ -1,5 +1,3 @@
-content = """Online Movie Ticket Booking System
-
 1. Project Description
 
 The Online Movie Ticket Booking System is a console-based application developed using Python and SQLite. It helps users book movie tickets and manage their bookings easily. Users can view available movies, check show timings, book tickets, view booking details, and cancel bookings. The system also calculates the total ticket price automatically.
@@ -49,9 +47,3 @@ The database uses SQL commands to insert, retrieve, and delete booking records.
 - Include online payment facilities.
 - Add a graphical user interface.
 - Support multiple theatres and show schedules.
-"""
-
-with open("readme.md", "w", encoding="utf-8") as file:
-    file.write(content)
-
-print("readme.md created successfully!")
